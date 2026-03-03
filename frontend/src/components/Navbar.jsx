@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom'
 const Navbar = () => {
   const [visible, setVisible] = React.useState(false);
   return (
-    <div className='flex items-center justify-between py-4'>
+    <div className='flex items-center justify-between py-4 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
       <img src={assets.logo} className='h-10' alt='Logo' /> 
 
       <ul className='hidden sm:flex gap-5 text-sm text-grey-700'>

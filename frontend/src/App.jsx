@@ -13,8 +13,9 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div className = "px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]"> 
+    <div className = "min-h-screen"> 
     <Navbar />
+    <div className='bg-black text-white min-h-screen px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
     <Routes>
       <Route path = '/' element={<Home/>} />
       <Route path = '/collection' element={<Collection/>} />  
@@ -28,6 +29,7 @@ const App = () => {
 
 
     </Routes>
+    </div>
       
     </div>
   )
