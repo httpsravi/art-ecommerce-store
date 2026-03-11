@@ -3,7 +3,7 @@ import art1 from "../assets/art1.jpg";
 
 const Hero = () => {
   return (
-    <div className="mt-12 flex flex-col sm:flex-row border border-gray-600 min-h-[70vh] relative overflow-hidden">
+    <div className="mt-0 flex flex-col sm:flex-row border border-gray-600 min-h-[70vh] relative overflow-hidden">
 
       {/* Background Artwork */}
       <img
